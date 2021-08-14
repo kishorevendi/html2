@@ -1,0 +1,74 @@
+<html>
+<title>gridcontent</title>
+
+<head>
+    <style>
+        header {
+            background-color: black;
+            color: blue;
+            text-align: center;
+            font-size: 15px;
+            border: none;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto;
+            padding: 10px;
+            background-color: black;
+            color: red;
+            text-align: center;
+            grid-gap: 5px;
+            grid-gap: 5px;
+        }
+        
+        section div {
+            background-color: rgb(255, 255, 255);
+            border: 5px lightblue;
+            grid-gap: 10px;
+        }
+        
+        footer {
+            background-color: rgb(100, 250, 125);
+            color: whitet;
+            text-align: center;
+            font-size: 15px;
+            border: none;
+        }
+        
+        .grid-container:hover {
+            background-color: green;
+            width: 100%;
+        }
+        
+        .item1 {
+            grid-column: 1/span 3;
+            grid-row: 1/ span 2
+        }
+    </style>
+</head>
+<header>
+    <h1>these is grid layout templat</h1>
+</header>
+<section>
+    <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+        <div class="item10">10</div>
+        <div class="item11">11</div>
+        <div class="item12">12</div>
+    </div>
+</section>
+<footer>
+    <h2>these is footer things shows</h2>
+</footer>
+
+</html>
